@@ -12,8 +12,8 @@ function logShout(string) {
 }
 
 function sayHiToGrandma(string) {
-  console.log('hello') === console.log("I can\'t hear you!")
-  console.log('HELLO') === console.log("YES INDEED!")
+  console.log('HELLO'.toLowerCase()) === console.log("I can\'t hear you!")
+  console.log('hello'.toUpperCase()) === console.log("YES INDEED!")
   console.log("I love you, Grandma.") === console.log("I love you, too.")
   return sayHiToGrandma
 }
